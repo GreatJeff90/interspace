@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import BrandSection from "@/components/BrandSection";
+import WhoIsItFor from "@/components/WhoIsItFor";
 import HowItWorks from "@/components/HowItWorks";
 import Benefits from "@/components/Benefits";
 import DeveloperApi from "@/components/DeveloperApi";
@@ -14,6 +15,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <BrandSection />
+      <WhoIsItFor />
       <HowItWorks />
       <Benefits />
       <DeveloperApi />
